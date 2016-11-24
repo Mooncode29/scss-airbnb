@@ -1,0 +1,39 @@
+*{
+	box-sizing: border-box;
+}
+nav {
+	
+	ul {
+
+		list-style: none;
+		text-align: right;
+
+	}
+
+	li {
+		display: inline-block;
+		
+	}
+
+	a {
+		
+		text-decoration: none;
+		color:white;
+		padding: 30px;
+		font-size: 18px;
+		margin-top: 0;
+
+	}
+	img {
+		float: left;
+		width: 30px;
+		height: 30px;
+	}
+	
+}
+
+header {
+	background-image: url("http://lorempicsum.com/futurama/627/300/4");
+	height : 500px;
+	background-size: cover;
+}

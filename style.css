@@ -1,0 +1,12 @@
+nav ul {
+  list-style: none; }
+nav li {
+  display: inline-block; }
+nav a {
+  display: block;
+  text-decoration: none; }
+
+header {
+  background-image: url("http://lorempicsum.com/futurama/627/300/4"); }
+
+/*# sourceMappingURL=style.css.map */

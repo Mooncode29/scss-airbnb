@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box; }
+
+nav ul {
+  list-style: none;
+  text-align: right; }
+nav li {
+  display: inline-block; }
+nav a {
+  text-decoration: none;
+  color: white;
+  padding: 30px;
+  font-size: 18px;
+  margin-top: 0; }
+nav img {
+  float: left;
+  width: 30px;
+  height: 30px; }
+
+header {
+  background-image: url("http://lorempicsum.com/futurama/627/300/4");
+  height: 500px;
+  background-size: cover; }
+
+.triptik {
+  display: flex;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4em; }
+
+.ou {
+  width: 500px;
+  border: 1px solid grey;
+  height: 6em; }
+
+.quand {
+  width: 500px;
+  border: 1px solid grey;
+  height: 6em; }
+
+.voyageur {
+  display: flex;
+  width: 500px;
+  border: 1px solid grey;
+  height: 6em; }
+
+label {
+  display: block;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px; }
+
+input {
+  display: block;
+  border: none;
+  font-size: 18px;
+  font-family: Arial; }
+
+select {
+  border: none;
+  background-color: #fff;
+  font-size: 18px;
+  font-family: arial; }
+
+button {
+  width: 120px;
+  height: 42px;
+  background-color: #f1404b;
+  margin-left: 35px;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 18px; }
+
+/*# sourceMappingURL=style.css.map */
