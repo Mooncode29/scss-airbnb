@@ -1,6 +1,11 @@
 *{
 	box-sizing: border-box;
 }
+html, body{
+	font-size: $font-size;
+	margin: 0;
+	margin-top: 0;
+}
 nav {
 	
 	ul {
@@ -17,23 +22,23 @@ nav {
 
 	a {
 		
-		text-decoration: none;
+		text-decoration: $text-decoration;
 		color:white;
-		padding: 30px;
-		font-size: 18px;
+		padding:1.5em;
+		font-size: $font-size;
 		margin-top: 0;
 
 	}
 	img {
 		float: left;
-		width: 30px;
-		height: 30px;
+		width: 1.5em;
+		height: 1.5em;
 	}
 	
 }
 
 header {
 	background-image: url("http://lorempicsum.com/futurama/627/300/4");
-	height : 500px;
+	height : 25em;
 	background-size: cover;
 }

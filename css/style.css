@@ -1,6 +1,11 @@
 * {
   box-sizing: border-box; }
 
+html, body {
+  font-size: 20px;
+  margin: 0;
+  margin-top: 0; }
+
 nav ul {
   list-style: none;
   text-align: right; }
@@ -9,69 +14,150 @@ nav li {
 nav a {
   text-decoration: none;
   color: white;
-  padding: 30px;
-  font-size: 18px;
+  padding: 1.5em;
+  font-size: 20px;
   margin-top: 0; }
 nav img {
   float: left;
-  width: 30px;
-  height: 30px; }
+  width: 1.5em;
+  height: 1.5em; }
 
 header {
   background-image: url("http://lorempicsum.com/futurama/627/300/4");
-  height: 500px;
+  height: 25em;
   background-size: cover; }
 
 .triptik {
   display: flex;
-  width: 800px;
+  width: 52.5em;
   margin-left: auto;
   margin-right: auto;
   margin-top: 4em; }
 
 .ou {
-  width: 500px;
-  border: 1px solid grey;
-  height: 6em; }
+  width: 17.5em;
+  border: 0.05em solid grey;
+  height: 5.5em; }
 
 .quand {
-  width: 500px;
-  border: 1px solid grey;
-  height: 6em; }
+  width: 17.5em;
+  border: 0.05em solid grey;
+  height: 5.5em; }
 
 .voyageur {
   display: flex;
-  width: 500px;
-  border: 1px solid grey;
-  height: 6em; }
+  flex-wrap: nowrap;
+  width: 17.5em;
+  border: 0.05em solid grey;
+  height: 5.5em; }
 
 label {
   display: block;
   font-family: Arial, sans-serif;
-  font-size: 14px;
-  padding-top: 20px;
-  padding-left: 20px;
-  padding-bottom: 20px; }
+  font-size: 0.7em;
+  padding-top: 2em;
+  padding-left: 1em;
+  padding-bottom: 0.5em; }
 
 input {
   display: block;
   border: none;
-  font-size: 18px;
-  font-family: Arial; }
+  font-size: 0.9em;
+  font-family: Arial;
+  padding-left: 1em; }
 
 select {
   border: none;
   background-color: #fff;
-  font-size: 18px;
-  font-family: arial; }
+  font-size: 0.9em;
+  font-family: arial;
+  padding-left: 0em;
+  padding-top: 1em;
+  margin-left: 0; }
 
 button {
-  width: 120px;
-  height: 42px;
+  width: 6em;
+  height: 2.1em;
   background-color: #f1404b;
-  margin-left: 35px;
-  border-radius: 6px;
+  margin-left: 1.75em;
+  border-radius: 0.4em;
   color: #fff;
-  font-size: 18px; }
+  font-size: 0.9em;
+  align-self: center;
+  margin-right: 0.5em; }
+
+option {
+  margin-left: 0em; }
+
+* {
+  box-sizing: border-box; }
+
+.blockimage {
+  display: flex;
+  justify-content: space-around;
+  width: 1050px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0px; }
+
+.blocktitle {
+  width: 1050px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px; }
+
+h3 {
+  font-family: circular; }
+
+.caption2 {
+  justify-content: space-between; }
+  .caption2 a {
+    text-decoration: none; }
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  width: 52.5em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4em; }
+
+.liensrs {
+  display: flex;
+  justify-content: space-between;
+  width: 52.5em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4em;
+  border-top: 1px solid grey; }
+  .liensrs a {
+    text-decoration: none;
+    background: transparent; }
+    .liensrs a:link, .liensrs a:visited {
+      color: #767676; }
+    .liensrs a:hover {
+      color: #008489; }
+  .liensrs li {
+    font-family: Helvetica;
+    font-size: 0.7em; }
+
+.titrerubrik a {
+  text-decoration: none;
+  background: transparent; }
+  .titrerubrik a:link, .titrerubrik a:visited {
+    color: #767676; }
+  .titrerubrik a:hover {
+    color: #008489; }
+.titrerubrik ul {
+  list-style: none; }
+.titrerubrik li {
+  font-family: Helvetica;
+  font-size: 0.7em; }
+
+.select {
+  display: block; }
+
+hr {
+  margin-top: 3em; }
 
 /*# sourceMappingURL=style.css.map */

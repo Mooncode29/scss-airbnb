@@ -1,0 +1,66 @@
+footer {
+	display: flex;
+	justify-content: space-between;
+	width: 52.5em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 4em;
+}
+.liensrs {
+	display: flex;
+	justify-content: space-between;
+	width: 52.5em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 4em;
+	border-top: 1px solid grey;
+	
+	a {
+		text-decoration: $text-decoration;
+		background: transparent;
+
+
+		&:link, &:visited{
+			color: #767676;
+		}
+		&:hover {
+			color: #008489;
+
+		}
+	}
+	li {
+		font-family: Helvetica; 
+		font-size: 0.7em;
+	}
+
+	
+}
+.titrerubrik {
+	
+	a {
+		text-decoration: $text-decoration;
+		background: transparent;
+
+
+		&:link, &:visited{
+			color: #767676;
+		}
+		&:hover {
+			color: #008489;
+
+		}
+	}
+	ul {
+		list-style: none;
+	}
+	li {
+		font-family: Helvetica; 
+		font-size: 0.7em;
+	}
+}
+.select {
+	display: block;
+}
+hr {
+	margin-top: 3em;
+}
