@@ -8,7 +8,8 @@ html, body {
 
 nav ul {
   list-style: none;
-  text-align: right; }
+  text-align: right;
+  margin: 0; }
 nav li {
   display: inline-block; }
 nav a {
@@ -155,7 +156,25 @@ footer {
   font-size: 0.7em; }
 
 .select {
-  display: block; }
+  display: block;
+  margin-top: 2em;
+  margin-left: 0.5em; }
+
+.selectpays select {
+  display: flex;
+  align-self: center;
+  border: 1px solid grey;
+  color: #008489;
+  background-color: #fff;
+  width: 6em;
+  margin-bottom: 0.5em; }
+
+.selectdevise select {
+  border: 1px solid grey;
+  color: #008489;
+  background-color: #fff;
+  width: 6em;
+  margin-top: 0.5em; }
 
 hr {
   margin-top: 3em; }
